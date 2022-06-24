@@ -13,7 +13,7 @@ public class SController {
         u = new User(); 
         u.setId("1");
         u.setName("name");
-        
-        return u.getId() + " Name is " + u.getName();
+        u.setEmail("12@12");
+        return u.getId() + " Name is " + u.getName() + " email is " + u.getEmail();
     }
 }
